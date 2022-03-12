@@ -18,7 +18,12 @@ Route::get('/', function () {
 });
 
 //here test is url 
-//get method is used to represent
-Route::get('/test',function(){
+//here get method is used to represent a data 
+Route::get('/hello',function(){
     return "Hi! Aditya. Welcome to Laravel.";
+});
+
+//returning a webpage demo.blade.php
+Route::get('/demo', function () {
+    return view('demo');
 });
