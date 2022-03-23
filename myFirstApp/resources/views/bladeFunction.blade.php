@@ -23,7 +23,9 @@
     @elseif($name=="Aditya")
         {{"Name is correct."}}
     @else
-        {{"Name is incorrect."}}
+        {{"Name i s incorrect."}}
     @endif
+
+    <!-- like this we use all loops and conditionals  -->
 </body>
 </html?
