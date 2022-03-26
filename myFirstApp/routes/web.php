@@ -41,7 +41,13 @@ Route::get('/bladeFunction/{name?}',function($name=null){
 Route::get('/form',function() {
     return view('form');
  });
-
-
-Route::post("add",[sum::class,'addnum']);
-Route::view("add","add");
+ 
+ 
+ Route::post("add",[sum::class,'addnum']);
+ Route::view("add","add");
+ 
+ 
+ Route::get('/placement',function() {
+     return view('placement');
+  });
+ 
