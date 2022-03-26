@@ -17,7 +17,11 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/login.html', function () {
-    return view('login');
+Route::get('/login', function () {
+    return view('auth.login');
 });
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

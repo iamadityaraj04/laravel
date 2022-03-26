@@ -46,7 +46,7 @@
                     <li><a href="#subContainer2">VERIFY CERTIFICATE</a></li>
                     <li><a href="#subContainer3">ABOUT</a></li>
                     <li><a href="#subContainer4">CONTACT</a></li>
-                    <li><a href="login.html" id="loginBtn">LOGIN</a></li>
+                    <li><a href="login" id="loginBtn">LOGIN</a></li>
                 </ul>
 
             </div>
