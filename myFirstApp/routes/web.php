@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\sum;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,3 +41,7 @@ Route::get('/bladeFunction/{name?}',function($name=null){
 Route::get('/form',function() {
     return view('form');
  });
+
+
+Route::post("add",[sum::class,'addnum']);
+Route::view("add","add");
