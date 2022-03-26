@@ -36,3 +36,8 @@ Route::get('/bladeFunction/{name?}',function($name=null){
     $data=compact('name');
     return view('bladeFunction')->with($data);
 });
+
+//form
+Route::get('/form',function() {
+    return view('form');
+ });
