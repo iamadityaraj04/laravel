@@ -22,6 +22,7 @@
                             <label for="">Lastname</label>  <input type="text"><br><br>
                             <label for="">Course Name</label>    <input type="text"><br><br>
                             <label for="">Course Duration(in weeks)</label>    <input type="number"><br><br>
+                            <label for="">Certificate Number</label>    <input type="number"><br><br>
                             <label for="">Date</label>    <input type="date"><br><br>
                                 <button class="dashboard-btn" name="submit">
                                     <img src="" alt="" class="certifi">
