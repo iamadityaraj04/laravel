@@ -14,7 +14,21 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <!-- {{ __('You are logged in!') }} -->
+                    <form action=""  id="dashboard-form">
+                        <center>
+                            <legend> <b> Upload Certificate</b></legend>
+                            <label for="">Firstname</label> <input type="text"><br><br>
+                            <label for="">Lastname</label>  <input type="text"><br><br>
+                            <label for="">Course Name</label>    <input type="text"><br><br>
+                            <label for="">Course Duration(in weeks)</label>    <input type="number"><br><br>
+                            <label for="">Date</label>    <input type="date"><br><br>
+                                <button class="dashboard-btn" name="submit">
+                                    <img src="" alt="" class="certifi">
+                                    Add Certificate
+                                </button>
+                        </center>
+                    </form>
                 </div>
             </div>
         </div>

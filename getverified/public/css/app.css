@@ -621,7 +621,20 @@ progress {
   font-size: 0.875em;
   color: #6c757d;
 }
-
+.dashboard-btn{
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: #0d6efd;
+  padding: 7px 5px;
+  margin: 10px 20px;
+  box-shadow: 1px 1px 5px gray;
+}
+.dashboard-btn:hover{
+  background-color: #0052cc;
+}
 .container,
 .container-fluid,
 .container-xxl,
